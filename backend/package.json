@@ -1,0 +1,14 @@
+{
+  "name": "network-diagnostics-backend-stub",
+  "version": "1.0.0",
+  "description": "Backend stub para sincronizacion offline-first y simulador de agente SNMP en UDP/161",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "network-diagnostics-suite": "file:.."
+  }
+}
